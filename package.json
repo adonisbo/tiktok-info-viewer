@@ -5,15 +5,17 @@
   "type": "module",
   "main": "api/handler.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo 'Vercel build: No client-side build step required. API functions will be deployed.'",
+    "start": "vercel dev"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^1.6.5", 
-    "cors": "^2.8.5",    
-    "dotenv": "^16.3.1", 
-    "express": "^4.18.2" 
+    "axios": "^1.6.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
   }
 }
