@@ -6,7 +6,7 @@
   "main": "api/handler.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "vercel dev"
+    "start": "vercel dev" 
   },
   "keywords": [],
   "author": "",
@@ -15,6 +15,6 @@
     "axios": "^1.6.5",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
-    "express": "^4.18.2"
+    "express": "^4.18.2" 
   }
 }
