@@ -6,7 +6,6 @@
   "main": "api/handler.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "echo 'Vercel build: No client-side build step required. API functions will be deployed.'",
     "start": "vercel dev"
   },
   "keywords": [],
